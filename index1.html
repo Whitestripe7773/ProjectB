@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mein Bestattungshaus</title>
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+	  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="index.html"><img src="images/Mein-Bestattungshaus-Logo black.jpg"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <span class="navbar ml-auto">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Start <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Leistungen</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Bestattung anfragen</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Vorsorge</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#">
+                    test
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
+                </li>
+              </ul>
+          </span>
+        </div>
+    </nav>    
+
+    <main>
+
+      <section class="top-main">
+        <div class="title-block">
+          <hr>
+          <h1 id="title">MeinBestattungshaus</h1>
+          <h2 class="quote">Das kostbarste Vermächtnis eines Menschen ist die Spur, <br>
+            die seine Liebe in unseren Herzen zurückgelassen hat. <br>
+            - Vinzenz Erath </h2>
+        </div>
+          <button class="btn inquiry">Kostenlos Anfragen</button>
+      </section>
+
+
+      <section class="cert-box">
+        <div class="row">
+          <div class="col-sm">
+            Zert 1
+          </div>
+          <div class="col-sm">
+            Zert 1
+          </div>
+          <div class="col-sm">
+            Zert 1
+          </div>
+       </div>
+      </section>
+
+
+      <!-- Section: Contact v.1 -->
+      <section class="my-5">
+        <!-- Section heading -->
+        <h2 class="h1-responsive font-weight-bold text-center">Kontakt</h2>
+        <!-- Section description -->
+        <p class="text-center w-responsive mx-auto">Gerne beantworten wir Ihre Fragen</p>
+
+        <!-- Grid row -->
+                <!-- Form with header -->
+            <div class="card">
+              <div class="card-body">
+                <!-- Header -->
+                <div class="form-header blue accent-1">
+                  <h3 class="mt-2"><i class="fas fa-envelope"></i> Schreiben Sie uns:</h3>
+                </div>
+                <p class="dark-grey-text">Antwort innerhalb von 48h</p>
+                <!-- Body -->
+                <div class="md-form">
+                  <i class="fas fa-user prefix grey-text"></i>
+                  <input type="text" id="form-name" class="form-control">
+                  <label for="form-name">Name</label>
+                </div>
+                <div class="md-form">
+                  <i class="fas fa-envelope prefix grey-text"></i>
+                  <input type="text" id="form-email" class="form-control">
+                  <label for="form-email">Email</label>
+                </div>
+                <div class="md-form">
+                  <i class="fas fa-tag prefix grey-text"></i>
+                  <input type="text" id="form-Subject" class="form-control">
+                  <label for="form-Subject">Betreff</label>
+                </div>
+                <div class="md-form">
+                  <i class="fas fa-pencil-alt prefix grey-text"></i>
+                  <textarea id="form-text" class="form-control md-textarea" rows="3"></textarea>
+                  <label for="form-text">Nachricht</label>
+                </div>
+                <div class="text-center">
+                  <button class="btn">Senden</button>
+                </div>
+              </div>
+            </div>
+            <!-- Form with header end -->
+
+                <!-- Google map -->
+              <div id="map-container-section" class="map-content" style="height: 300px">
+                <iframe  src="https://maps.google.com/maps?q=Frankfurt&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0"
+                  allowfullscreen></iframe>
+              </div>
+              <!-- Google map end -->
+              
+              <!-- Buttons-->
+              <div class="row text-center p-3">
+                <div class="col-md-4">
+                  <a class="btn-floating blue accent-1">
+                    <i class="fas fa-map-marker-alt"></i>
+                  </a>
+                  <p>Frankfurt am Main, 94126</p>
+                  <p class="mb-md-0">Germany</p>
+                </div>
+                <div class="col-md-4">
+                  <a class="btn-floating blue accent-1">
+                    <i class="fas fa-phone"></i>
+                  </a>
+                  <p>+ 01 234 567 89</p>
+                  <p class="mb-md-0">Mon - Fri, 8:00-22:00</p>
+                </div>
+                <div class="col-md-4">
+                  <a class="btn-floating blue accent-1">
+                    <i class="fas fa-envelope"></i>
+                  </a>
+                  <p>info@gmail.com</p>
+                  <p class="mb-0">example@gmail.com</p>
+                </div>
+              </div>
+              <!-- Buttons end -->
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+
+      </section>
+      <!-- Section: Contact v.1 -->
+    </main>
+
+    <footer>
+
+    </footer>
+
+</body>
+</html>
